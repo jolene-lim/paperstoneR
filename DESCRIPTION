@@ -1,0 +1,19 @@
+Package: paperstone
+Type: Package
+Title: Play Scissors-Paper-Stone Against R!
+Version: 0.1.0
+Authors@R: person("Jolene", "Lim", email = "jolene.lim14@gmail.com", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This package allows one to play the classic 'Scissors-Paper-Stone' game in R.
+   Use this and become the World Scissors Paper Stone Champion in minutes!
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    stringr,
+    stats
+RoxygenNote: 6.1.99.9001
+Suggests: 
+    testthat
